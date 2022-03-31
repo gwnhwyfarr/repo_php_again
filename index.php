@@ -39,21 +39,21 @@ if($_POST){
 
 // create function to all operators
 
-    function int soma($num1, $num2)
+    function int add($num1, $num2)
 {
        return $num1 + $num2;
     }
-function int subtrair ($num1, $num2)
+function int subtract ($num1, $num2)
 {
        return $num1 - $num2;
     }
 	
-function int multiplicar ($num1, $num2)
+function int multiply ($num1, $num2)
 {
        return $num1 * $num2;
     }
 	
-function int dividir ($num1, $num2)
+function int divide ($num1, $num2)
 {
        return $num1 / $num2;
     }
